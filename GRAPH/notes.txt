@@ -1,0 +1,35 @@
+Round_Trip -> CYCLE IN AN UNDIRECTED GRAPH PRINT
+
+Building_Teams -> Bipartite Graph related question 
+
+Shortest_Routes -> Direct Disjkstra simple with vis coz why not it is cses
+
+Shortest_Routes_ii -> Floyd Warshall
+
+Monsters -> isme bhi backtrack path and q me A ko and M ko sabko sath me daaldo
+
+High_Score -> bhaisahb bellman ford and than or sochna ki agar wapas reduce hora than cycle to phir is cycle se n tak ka rasta nahi hona chahiye
+
+Flight_Discount -> if reverse the graph than when we use Disjkstra we get shortest distance from every node to src and if we do not reverse than we get shortest distance from source to all nodes this concept used and than relax every edge 
+
+Cycle_Finding -> Negative cycle ko print karana hai... easy tha bass trace back dimag mein nahi aaya nth iteration me agar relax hora than cycle and keep track of parent
+
+Flight_Routes -> Modified Disjkstra where distance array is matrix of n*k where we need to find k shortest path from src to destination
+
+Course_Schedule -> Toposort
+
+Longest_Flight_Routes -> DP ka tadka pehle poora dfs krle phir jab neeche se upar aaega to dp array update with max length and than store max length in dp array and another array to store where we came from
+
+Game_Routes -> topo sort first to remove redundant nodes other than 1 and than again toposort with 1 in queue and count arrray to count number of ways
+
+Investigation -> Modified dijkstra jab same cost ke sath wapas aata hai route to phir calculations krro ki min update and maxupdate and all no of routes uuse jo aaye h
+
+Planet_Queries_i -> binary lifting (n->logn) to compute things and use of sparse matrix and no of rows should be less than no of columns otherwise tle
+
+Round_Trip_ii -> Same finding cycle in DG but just store node in stack to trace back 
+
+Road_Preparation -> Nice mst krna hai direct meine dsu se kara
+
+Flight_Routes_Check -> Strongly Connected Components ===  KOSARUJO ALGOA SE SOLVE HUA 
+
+Plantes_and_Kingdoms -> har scc ko incrementally assign krna tha simple
